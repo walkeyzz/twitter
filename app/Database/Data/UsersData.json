@@ -1,0 +1,72 @@
+[
+{
+"user_id":1,
+"username":"chaurasia20",
+"email":"chaurasia@gmail.com",
+"password":"ab84e1ad31337246d6d98e3ca709eeaf",
+"screenName":"Yash Chaurasia",
+"profileImage":"users\/eat-sleep-code-repeat-saying-t-shirt-for-coder-vector-31386255.jpg",
+"profileCover":"users\/coding.png",
+"following":0,
+"followers":0,
+"bio":"Full Stack Developer | Freelancer",
+"country":"India",
+"website":"www.chaurasia.com"
+},
+{
+"user_id":2,
+"username":"kartik001",
+"email":"kartik@gmail.com",
+"password":"c8d39cdb56a46ad807969ee04c4e660b",
+"screenName":"Kartik Choubey",
+"profileImage":"users\/download.png",
+"profileCover":"users\/Dev wallpaper 1.jpg",
+"following":0,
+"followers":0,
+"bio":"BCA Student | Freelancer",
+"country":"India",
+"website":"www.kartik.com"
+},
+{
+"user_id":3,
+"username":"naman1999",
+"email":"naman@gmail.com",
+"password":"98c8bc837481b93acfb0deef65e50127",
+"screenName":"Naman Jain",
+"profileImage":"users/avtar2.jpg",
+"profileCover":"users/Dev wallpaper 2.jpg",
+"following":0,
+"followers":0,
+"bio":"UI/UX Designer | Website Designer",
+"country":"India",
+"website":"www.naman.com"
+},
+{
+"user_id":4,
+"username":"nikhil01",
+"email":"nikhil@gmail.com",
+"password":"350d89c1cd6592bbbd1ed2e8a4f3ddba",
+"screenName":"Nikhil Yadav",
+"profileImage":"users\/avtar.png",
+"profileCover":"users\/code.jpg",
+"following":2,
+"followers":1,
+"bio":"Software Developer | Freelancer",
+"country":"India",
+"website":"www.nikhil.com"
+},
+{
+"user_id":5,
+"username":"yashgaur908",
+"email":"yash@gmail.com",
+"password":"e76eb8a75988cb07c8428733a5dd4684",
+"screenName":"Yash Gaur",
+"profileImage":"users\/avtar1.jpg",
+"profileCover":"users\/Dev wallpaper.jpg",
+"following":2,
+"followers":1,
+"bio":"Software Developer | Freelancer",
+"country":"India",
+"website":"www.yashgaur.tk"
+}
+]

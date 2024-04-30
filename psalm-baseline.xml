@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<files psalm-version="5.22.2@d768d914152dbbf3486c36398802f74e80cfde48">
+  <file src="app/Config/View.php">
+    <UndefinedDocblockClass>
+      <code><![CDATA[array<string, list<parser_callable_string>|parser_callable_string|parser_callable>]]></code>
+      <code><![CDATA[array<string, list<parser_callable_string>|parser_callable_string|parser_callable>]]></code>
+      <code><![CDATA[array<string, parser_callable_string>]]></code>
+      <code><![CDATA[public $filters = [];]]></code>
+      <code><![CDATA[public $plugins = [];]]></code>
+      <code><![CDATA[public $plugins = [];]]></code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="system/Cache/Handlers/MemcachedHandler.php">
+    <UndefinedClass>
+      <code><![CDATA[Memcache]]></code>
+      <code><![CDATA[Memcache]]></code>
+      <code><![CDATA[Memcache]]></code>
+    </UndefinedClass>
+    <UndefinedDocblockClass>
+      <code><![CDATA[$this->memcached]]></code>
+      <code><![CDATA[$this->memcached]]></code>
+      <code><![CDATA[$this->memcached]]></code>
+      <code><![CDATA[$this->memcached]]></code>
+      <code><![CDATA[$this->memcached]]></code>
+      <code><![CDATA[$this->memcached]]></code>
+      <code><![CDATA[Memcache|Memcached]]></code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="system/Commands/Utilities/Routes/ControllerMethodReader.php">
+    <DuplicateArrayKey>
+      <code><![CDATA[$routeWithoutController]]></code>
+      <code><![CDATA[$routeWithoutController]]></code>
+    </DuplicateArrayKey>
+  </file>
+  <file src="system/Config/View.php">
+    <UndefinedDocblockClass>
+      <code><![CDATA[array<string, array<parser_callable_string>|parser_callable_string|parser_callable>]]></code>
+      <code><![CDATA[array<string, array<parser_callable_string>|parser_callable_string|parser_callable>]]></code>
+      <code><![CDATA[array<string, parser_callable_string>]]></code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="system/Database/BasePreparedQuery.php">
+    <InaccessibleProperty>
+      <code><![CDATA[$this->db->transStatus]]></code>
+    </InaccessibleProperty>
+  </file>
+  <file src="system/Database/OCI8/Connection.php">
+    <UndefinedConstant>
+      <code><![CDATA[OCI_COMMIT_ON_SUCCESS]]></code>
+      <code><![CDATA[OCI_COMMIT_ON_SUCCESS]]></code>
+      <code><![CDATA[OCI_COMMIT_ON_SUCCESS]]></code>
+      <code><![CDATA[OCI_NO_AUTO_COMMIT]]></code>
+      <code><![CDATA[SQLT_CHR]]></code>
+    </UndefinedConstant>
+  </file>
+  <file src="system/Debug/Toolbar/Views/toolbar.tpl.php">
+    <InaccessibleMethod>
+      <code><![CDATA[renderTimeline]]></code>
+    </InaccessibleMethod>
+    <UndefinedGlobalVariable>
+      <code><![CDATA[$config]]></code>
+    </UndefinedGlobalVariable>
+  </file>
+  <file src="system/Email/Email.php">
+    <LoopInvalidation>
+      <code><![CDATA[$timestamp]]></code>
+    </LoopInvalidation>
+  </file>
+  <file src="system/HTTP/Files/FileCollection.php">
+    <EmptyArrayAccess>
+      <code><![CDATA[$output[$name]]]></code>
+    </EmptyArrayAccess>
+  </file>
+  <file src="system/Helpers/text_helper.php">
+    <LoopInvalidation>
+      <code><![CDATA[$count]]></code>
+      <code><![CDATA[$count]]></code>
+      <code><![CDATA[$count]]></code>
+    </LoopInvalidation>
+  </file>
+  <file src="system/I18n/TimeTrait.php">
+    <MissingImmutableAnnotation>
+      <code><![CDATA[#[ReturnTypeWillChange]]]></code>
+      <code><![CDATA[#[ReturnTypeWillChange]]]></code>
+      <code><![CDATA[#[ReturnTypeWillChange]]]></code>
+    </MissingImmutableAnnotation>
+  </file>
+  <file src="system/View/Parser.php">
+    <UndefinedDocblockClass>
+      <code><![CDATA[array<string, array<parser_callable_string>|parser_callable_string|parser_callable>]]></code>
+      <code><![CDATA[array<string, array<parser_callable_string>|parser_callable_string|parser_callable>]]></code>
+      <code><![CDATA[protected $plugins = [];]]></code>
+      <code><![CDATA[protected $plugins = [];]]></code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="tests/_support/Config/Filters.php">
+    <UndefinedGlobalVariable>
+      <code><![CDATA[$filters]]></code>
+    </UndefinedGlobalVariable>
+  </file>
+  <file src="tests/_support/Config/Routes.php">
+    <UndefinedGlobalVariable>
+      <code><![CDATA[$routes]]></code>
+      <code><![CDATA[$routes]]></code>
+      <code><![CDATA[$routes]]></code>
+      <code><![CDATA[$routes]]></code>
+      <code><![CDATA[$routes]]></code>
+    </UndefinedGlobalVariable>
+  </file>
+  <file src="tests/_support/View/Cells/colors.php">
+    <InvalidScope>
+      <code><![CDATA[$this]]></code>
+    </InvalidScope>
+  </file>
+  <file src="tests/system/CLI/ConsoleTest.php">
+    <DuplicateArrayKey>
+      <code><![CDATA[$command]]></code>
+    </DuplicateArrayKey>
+  </file>
+  <file src="tests/system/CommonFunctionsTest.php">
+    <UndefinedClass>
+      <code><![CDATA[UnexsistenceClass]]></code>
+    </UndefinedClass>
+  </file>
+  <file src="tests/system/Config/FactoriesTest.php">
+    <UndefinedClass>
+      <code><![CDATA['App\Models\UserModel']]></code>
+      <code><![CDATA['App\Models\UserModel']]></code>
+      <code><![CDATA['Config\TestRegistrar']]></code>
+    </UndefinedClass>
+  </file>
+  <file src="tests/system/Database/Live/OCI8/CallStoredProcedureTest.php">
+    <UndefinedConstant>
+      <code><![CDATA[OCI_ASSOC]]></code>
+      <code><![CDATA[OCI_B_CURSOR]]></code>
+      <code><![CDATA[OCI_RETURN_NULLS]]></code>
+    </UndefinedConstant>
+  </file>
+  <file src="tests/system/Entity/EntityTest.php">
+    <EmptyArrayAccess>
+      <code><![CDATA[$current[$key]]]></code>
+    </EmptyArrayAccess>
+  </file>
+  <file src="tests/system/HTTP/RedirectResponseTest.php">
+    <EmptyArrayAccess>
+      <code><![CDATA[$_SESSION['_ci_old_input']]]></code>
+    </EmptyArrayAccess>
+  </file>
+  <file src="tests/system/Test/ControllerTestTraitTest.php">
+    <UndefinedClass>
+      <code><![CDATA[NeverHeardOfIt]]></code>
+    </UndefinedClass>
+  </file>
+</files>
