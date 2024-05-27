@@ -1,0 +1,172 @@
+INFO - 2024-04-30 14:26:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 14:27:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-30 14:27:41 --> ErrorException: Undefined variable $uilder
+[Method: POST, Route: signin]
+in APPPATH\Models\Users.php on line 53.
+ 1 APPPATH\Models\Users.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $uilder', 'C:\\wamp64\\www\\twitter\\app\\Models\\Users.php', 53)
+ 2 APPPATH\Controllers\Frontend\Login.php(28): App\Models\Users->login('customer@gmail.com', '1234567890')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\Login->signin()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-04-30 14:28:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-30 14:28:55 --> ErrorException: Attempt to read property "user_id" on bool
+[Method: POST, Route: signin]
+in APPPATH\Controllers\Frontend\Login.php on line 32.
+ 1 APPPATH\Controllers\Frontend\Login.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "user_id" on bool', 'C:\\wamp64\\www\\twitter\\app\\Controllers\\Frontend\\Login.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\Login->signin()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-04-30 14:31:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 14:31:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-30 14:31:35 --> ErrorException: Undefined variable $uilder
+[Method: GET, Route: /]
+in APPPATH\Models\Users.php on line 90.
+ 1 APPPATH\Models\Users.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $uilder', 'C:\\wamp64\\www\\twitter\\app\\Models\\Users.php', 90)
+ 2 APPPATH\Controllers\Frontend\Home.php(14): App\Models\Users->userData('13')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-04-30 14:33:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-30 14:33:09 --> TypeError: CodeIgniter\Database\BaseBuilder::select(): Argument #2 ($escape) must be of type ?bool, array given, called in C:\wamp64\www\twitter\system\Model.php on line 919
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseBuilder.php on line 397.
+ 1 SYSTEMPATH\Model.php(919): CodeIgniter\Database\BaseBuilder->select('COUNT(messageID) AS totalM, (SELECT COUNT(ID) FROM notification WHERE notificationFor = :user_id AND status = \'0\') AS totalN', [...])
+ 2 APPPATH\Models\Messages.php(61): CodeIgniter\Model->__call('select', [...])
+ 3 APPPATH\Controllers\Frontend\Home.php(15): App\Models\Messages->getNotificationCount('13')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-04-30 14:40:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-30 14:40:02 --> BadMethodCallException: Call to undefined method App\Models\Messages::setBindings
+[Method: GET, Route: /]
+in SYSTEMPATH\Model.php on line 921.
+ 1 APPPATH\Models\Messages.php(66): CodeIgniter\Model->__call('setBindings', [...])
+ 2 APPPATH\Controllers\Frontend\Home.php(15): App\Models\Messages->getNotificationCount('13')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-04-30 14:43:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-30 14:43:50 --> BadMethodCallException: Call to undefined method App\Models\Messages::bind
+[Method: GET, Route: /]
+in SYSTEMPATH\Model.php on line 921.
+ 1 APPPATH\Models\Messages.php(66): CodeIgniter\Model->__call('bind', [...])
+ 2 APPPATH\Controllers\Frontend\Home.php(15): App\Models\Messages->getNotificationCount('13')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-04-30 14:47:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-04-30 14:47:22 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? AND status = '0') AS totalN
+FROM `messages`
+WHERE `messageTo` = '13'' at line 2 in C:\wamp64\www\twitter\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\wamp64\www\twitter\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT COUNT(me...', 0)
+#1 C:\wamp64\www\twitter\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(me...')
+#2 C:\wamp64\www\twitter\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(me...')
+#3 C:\wamp64\www\twitter\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(me...', Array, false)
+#4 C:\wamp64\www\twitter\app\Models\Messages.php(70): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\twitter\app\Controllers\Frontend\Home.php(15): App\Models\Messages->getNotificationCount('13')
+#6 C:\wamp64\www\twitter\system\CodeIgniter.php(933): App\Controllers\Frontend\Home->index()
+#7 C:\wamp64\www\twitter\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#8 C:\wamp64\www\twitter\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\twitter\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\twitter\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\wamp64\www\twitter\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-04-30 14:47:22 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? AND status = '0') AS totalN
+FROM `messages`
+WHERE `messageTo` = '13'' at line 2
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(messageID) AS totalM,
+               (SELECT COUNT(ID) FROM notification WHERE notificationFor = ? AND status = \'0\') AS totalN
+FROM `messages`
+WHERE `messageTo` = :messageTo:', [...], false)
+ 2 APPPATH\Models\Messages.php(70): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Frontend\Home.php(15): App\Models\Messages->getNotificationCount('13')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-30 14:47:22 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? AND status = '0') AS totalN
+FROM `messages`
+WHERE `messageTo` = '13'' at line 2
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(messageID) AS totalM,
+               (SELECT COUNT(ID) FROM notification WHERE notificationFor = ? AND status = \'0\') AS totalN
+FROM `messages`
+WHERE `messageTo` = \'13\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(messageID) AS totalM,
+               (SELECT COUNT(ID) FROM notification WHERE notificationFor = ? AND status = \'0\') AS totalN
+FROM `messages`
+WHERE `messageTo` = \'13\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(messageID) AS totalM,
+               (SELECT COUNT(ID) FROM notification WHERE notificationFor = ? AND status = \'0\') AS totalN
+FROM `messages`
+WHERE `messageTo` = :messageTo:', [...], false)
+ 4 APPPATH\Models\Messages.php(70): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Frontend\Home.php(15): App\Models\Messages->getNotificationCount('13')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-30 14:47:22 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? AND status = '0') AS totalN
+FROM `messages`
+WHERE `messageTo` = '13'' at line 2
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT COUNT(messageID) AS totalM,
+               (SELECT COUNT(ID) FROM notification WHERE notificationFor = ? AND status = \'0\') AS totalN
+FROM `messages`
+WHERE `messageTo` = \'13\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(messageID) AS totalM,
+               (SELECT COUNT(ID) FROM notification WHERE notificationFor = ? AND status = \'0\') AS totalN
+FROM `messages`
+WHERE `messageTo` = \'13\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(messageID) AS totalM,
+               (SELECT COUNT(ID) FROM notification WHERE notificationFor = ? AND status = \'0\') AS totalN
+FROM `messages`
+WHERE `messageTo` = \'13\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(messageID) AS totalM,
+               (SELECT COUNT(ID) FROM notification WHERE notificationFor = ? AND status = \'0\') AS totalN
+FROM `messages`
+WHERE `messageTo` = :messageTo:', [...], false)
+ 5 APPPATH\Models\Messages.php(70): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Frontend\Home.php(15): App\Models\Messages->getNotificationCount('13')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-04-30 14:54:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-30 14:54:03 --> BadMethodCallException: Call to undefined method App\Models\Tweets::tweets
+[Method: GET, Route: /]
+in SYSTEMPATH\Model.php on line 921.
+ 1 APPPATH\Controllers\Frontend\Home.php(16): CodeIgniter\Model->__call('tweets', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

@@ -1,0 +1,1688 @@
+CRITICAL - 2024-05-01 02:19:17 --> ParseError: syntax error, unexpected variable "$this", expecting "("
+[Method: GET, Route: /]
+in APPPATH\Controllers\Frontend\Home.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\twitter\\app\\Controllers\\Frontend\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Frontend\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Frontend\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Frontend\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-01 02:20:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-01 02:20:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-01 02:20:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-01 02:20:53 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Builder::orWhereGroup()
+[Method: GET, Route: /]
+in APPPATH\Models\Tweets.php on line 38.
+ 1 APPPATH\Controllers\Frontend\Home.php(15): App\Models\Tweets->getTweets('13', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-01 02:28:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-01 02:28:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-01 02:29:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-01 02:29:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-01 02:30:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-01 02:30:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-01 02:30:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-01 02:30:46 --> BadMethodCallException: Call to undefined method App\Models\Users::updateUsername
+[Method: POST, Route: signup/next]
+in SYSTEMPATH\Model.php on line 921.
+ 1 APPPATH\Controllers\Frontend\Login.php(105): CodeIgniter\Model->__call('updateUsername', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\Login->next()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-01 02:35:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-01 02:35:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-01 02:35:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-01 02:35:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-01 02:35:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-01 02:35:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-01 02:36:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-01 02:38:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-01 02:38:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-01 02:38:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-01 02:49:53 --> ParseError: syntax error, unexpected variable "$this"
+[Method: GET, Route: /]
+in APPPATH\Controllers\Frontend\Home.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\twitter\\app\\Controllers\\Frontend\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Frontend\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Frontend\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Frontend\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-01 02:50:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-01 02:50:11 --> mysqli_sql_exception: Not unique table/alias: 'tweets' in C:\wamp64\www\twitter\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\wamp64\www\twitter\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT `trends`...', 0)
+#1 C:\wamp64\www\twitter\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `trends`...')
+#2 C:\wamp64\www\twitter\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `trends`...')
+#3 C:\wamp64\www\twitter\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `trends`...', Array, false)
+#4 C:\wamp64\www\twitter\system\Model.php(919): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\twitter\app\Models\Tweets.php(154): CodeIgniter\Model->__call('get', Array)
+#6 C:\wamp64\www\twitter\app\Controllers\Frontend\Home.php(16): App\Models\Tweets->getTrends()
+#7 C:\wamp64\www\twitter\system\CodeIgniter.php(933): App\Controllers\Frontend\Home->index()
+#8 C:\wamp64\www\twitter\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#9 C:\wamp64\www\twitter\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\twitter\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#11 C:\wamp64\www\twitter\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\wamp64\www\twitter\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2024-05-01 02:50:11 --> CodeIgniter\Database\Exceptions\DatabaseException: Not unique table/alias: 'tweets'
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `trends`.*, COUNT(tweets.tweetID) AS tweetsCount
+FROM `tweets`
+INNER JOIN `tweets` ON `tweets`.`status` LIKE CONCAT(\'%#\', trends.hashtag, \'%\') OR `tweets`.`retweetMsg` LIKE CONCAT(\'%#\', trends.hashtag, \'%\')
+GROUP BY `trends`.`hashtag`
+ORDER BY `tweetsCount` DESC
+ LIMIT 2', [], false)
+ 2 SYSTEMPATH\Model.php(919): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Models\Tweets.php(154): CodeIgniter\Model->__call('get', [])
+ 4 APPPATH\Controllers\Frontend\Home.php(16): App\Models\Tweets->getTrends()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-01 02:50:11 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Not unique table/alias: 'tweets'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `trends`.*, COUNT(tweets.tweetID) AS tweetsCount
+FROM `tweets`
+INNER JOIN `tweets` ON `tweets`.`status` LIKE CONCAT(\'%#\', trends.hashtag, \'%\') OR `tweets`.`retweetMsg` LIKE CONCAT(\'%#\', trends.hashtag, \'%\')
+GROUP BY `trends`.`hashtag`
+ORDER BY `tweetsCount` DESC
+ LIMIT 2')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `trends`.*, COUNT(tweets.tweetID) AS tweetsCount
+FROM `tweets`
+INNER JOIN `tweets` ON `tweets`.`status` LIKE CONCAT(\'%#\', trends.hashtag, \'%\') OR `tweets`.`retweetMsg` LIKE CONCAT(\'%#\', trends.hashtag, \'%\')
+GROUP BY `trends`.`hashtag`
+ORDER BY `tweetsCount` DESC
+ LIMIT 2')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `trends`.*, COUNT(tweets.tweetID) AS tweetsCount
+FROM `tweets`
+INNER JOIN `tweets` ON `tweets`.`status` LIKE CONCAT(\'%#\', trends.hashtag, \'%\') OR `tweets`.`retweetMsg` LIKE CONCAT(\'%#\', trends.hashtag, \'%\')
+GROUP BY `trends`.`hashtag`
+ORDER BY `tweetsCount` DESC
+ LIMIT 2', [], false)
+ 4 SYSTEMPATH\Model.php(919): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Models\Tweets.php(154): CodeIgniter\Model->__call('get', [])
+ 6 APPPATH\Controllers\Frontend\Home.php(16): App\Models\Tweets->getTrends()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-01 02:50:11 --> [Caused by] mysqli_sql_exception: Not unique table/alias: 'tweets'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT `trends`.*, COUNT(tweets.tweetID) AS tweetsCount
+FROM `tweets`
+INNER JOIN `tweets` ON `tweets`.`status` LIKE CONCAT(\'%#\', trends.hashtag, \'%\') OR `tweets`.`retweetMsg` LIKE CONCAT(\'%#\', trends.hashtag, \'%\')
+GROUP BY `trends`.`hashtag`
+ORDER BY `tweetsCount` DESC
+ LIMIT 2', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `trends`.*, COUNT(tweets.tweetID) AS tweetsCount
+FROM `tweets`
+INNER JOIN `tweets` ON `tweets`.`status` LIKE CONCAT(\'%#\', trends.hashtag, \'%\') OR `tweets`.`retweetMsg` LIKE CONCAT(\'%#\', trends.hashtag, \'%\')
+GROUP BY `trends`.`hashtag`
+ORDER BY `tweetsCount` DESC
+ LIMIT 2')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `trends`.*, COUNT(tweets.tweetID) AS tweetsCount
+FROM `tweets`
+INNER JOIN `tweets` ON `tweets`.`status` LIKE CONCAT(\'%#\', trends.hashtag, \'%\') OR `tweets`.`retweetMsg` LIKE CONCAT(\'%#\', trends.hashtag, \'%\')
+GROUP BY `trends`.`hashtag`
+ORDER BY `tweetsCount` DESC
+ LIMIT 2')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `trends`.*, COUNT(tweets.tweetID) AS tweetsCount
+FROM `tweets`
+INNER JOIN `tweets` ON `tweets`.`status` LIKE CONCAT(\'%#\', trends.hashtag, \'%\') OR `tweets`.`retweetMsg` LIKE CONCAT(\'%#\', trends.hashtag, \'%\')
+GROUP BY `trends`.`hashtag`
+ORDER BY `tweetsCount` DESC
+ LIMIT 2', [], false)
+ 5 SYSTEMPATH\Model.php(919): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\Tweets.php(154): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\Frontend\Home.php(16): App\Models\Tweets->getTrends()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-01 02:52:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-01 02:52:07 --> BadMethodCallException: Call to undefined method App\Models\Tweets::getTrends
+[Method: GET, Route: /]
+in SYSTEMPATH\Model.php on line 921.
+ 1 APPPATH\Controllers\Frontend\Home.php(16): CodeIgniter\Model->__call('getTrends', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-01 02:52:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-01 02:52:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-01 03:16:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-01 03:16:31 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?) ('16')
+ORDER BY RAND()
+ LIMIT 3' at line 4 in C:\wamp64\www\twitter\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\wamp64\www\twitter\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\twitter\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\twitter\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\twitter\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\twitter\app\Models\Follow.php(129): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\twitter\app\Controllers\Frontend\Home.php(17): App\Models\Follow->whoToFollow('16', '16')
+#6 C:\wamp64\www\twitter\system\CodeIgniter.php(933): App\Controllers\Frontend\Home->index()
+#7 C:\wamp64\www\twitter\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#8 C:\wamp64\www\twitter\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\twitter\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\twitter\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\wamp64\www\twitter\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-05-01 03:16:31 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?) ('16')
+ORDER BY RAND()
+ LIMIT 3' at line 4
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `user_id` != :user_id:
+AND `user_id` NOT IN (SELECT receiver FROM follow WHERE sender = ?) :user_id.1:
+ORDER BY RAND()
+ LIMIT 3', [...], false)
+ 2 APPPATH\Models\Follow.php(129): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Frontend\Home.php(17): App\Models\Follow->whoToFollow('16', '16')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-01 03:16:31 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?) ('16')
+ORDER BY RAND()
+ LIMIT 3' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `users`
+WHERE `user_id` != \'16\'
+AND `user_id` NOT IN (SELECT receiver FROM follow WHERE sender = ?) (\'16\')
+ORDER BY RAND()
+ LIMIT 3')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `users`
+WHERE `user_id` != \'16\'
+AND `user_id` NOT IN (SELECT receiver FROM follow WHERE sender = ?) (\'16\')
+ORDER BY RAND()
+ LIMIT 3')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `user_id` != :user_id:
+AND `user_id` NOT IN (SELECT receiver FROM follow WHERE sender = ?) :user_id.1:
+ORDER BY RAND()
+ LIMIT 3', [...], false)
+ 4 APPPATH\Models\Follow.php(129): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Frontend\Home.php(17): App\Models\Follow->whoToFollow('16', '16')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-01 03:16:31 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?) ('16')
+ORDER BY RAND()
+ LIMIT 3' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *
+FROM `users`
+WHERE `user_id` != \'16\'
+AND `user_id` NOT IN (SELECT receiver FROM follow WHERE sender = ?) (\'16\')
+ORDER BY RAND()
+ LIMIT 3', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `users`
+WHERE `user_id` != \'16\'
+AND `user_id` NOT IN (SELECT receiver FROM follow WHERE sender = ?) (\'16\')
+ORDER BY RAND()
+ LIMIT 3')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `users`
+WHERE `user_id` != \'16\'
+AND `user_id` NOT IN (SELECT receiver FROM follow WHERE sender = ?) (\'16\')
+ORDER BY RAND()
+ LIMIT 3')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `user_id` != :user_id:
+AND `user_id` NOT IN (SELECT receiver FROM follow WHERE sender = ?) :user_id.1:
+ORDER BY RAND()
+ LIMIT 3', [...], false)
+ 5 APPPATH\Models\Follow.php(129): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Frontend\Home.php(17): App\Models\Follow->whoToFollow('16', '16')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-01 03:22:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-01 03:22:01 --> Error: Call to undefined function followBtn()
+[Method: GET, Route: /]
+in APPPATH\Views\right-sidebar.php on line 45.
+ 1 APPPATH\Views\home.php(226): require()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\twitter\\app\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Frontend\Home.php(20): view('home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-01 03:24:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-01 03:24:11 --> Error: Call to undefined function followBtn()
+[Method: GET, Route: /]
+in APPPATH\Views\right-sidebar.php on line 45.
+ 1 APPPATH\Views\home.php(226): require()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\twitter\\app\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Frontend\Home.php(20): view('home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-01 03:25:34 --> ErrorException: Cannot redeclare App\Helpers\checkFollow() (previously declared in C:\wamp64\www\twitter\app\Helpers\tweet_helper.php:9)
+[Method: GET, Route: /]
+in APPPATH\Helpers\follow_helper.php on line 8.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-05-01 03:28:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-01 03:28:10 --> Error: Call to undefined function followBtn()
+[Method: GET, Route: /]
+in APPPATH\Views\right-sidebar.php on line 45.
+ 1 APPPATH\Views\home.php(226): require()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\twitter\\app\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Frontend\Home.php(20): view('home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-01 03:35:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-01 03:35:47 --> Error: Call to undefined function followBtn()
+[Method: GET, Route: /]
+in APPPATH\Views\right-sidebar.php on line 45.
+ 1 APPPATH\Views\home.php(226): require()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\twitter\\app\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Frontend\Home.php(20): view('home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-01 03:47:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-01 03:47:20 --> Error: Call to undefined function followBtn()
+[Method: GET, Route: /]
+in APPPATH\Views\right-sidebar.php on line 45.
+ 1 APPPATH\Views\home.php(226): require()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\twitter\\app\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Frontend\Home.php(21): view('home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-01 03:48:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-01 03:48:53 --> Error: Call to undefined function followBtn()
+[Method: GET, Route: /]
+in APPPATH\Views\right-sidebar.php on line 45.
+ 1 APPPATH\Views\home.php(226): require()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\twitter\\app\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Frontend\Home.php(21): view('home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-01 03:50:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-01 03:50:14 --> Error: Call to undefined function followBtn()
+[Method: GET, Route: /]
+in APPPATH\Views\right-sidebar.php on line 45.
+ 1 APPPATH\Views\home.php(226): require()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\twitter\\app\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Frontend\Home.php(21): view('home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-01 03:55:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-01 03:55:06 --> Error: Call to undefined function followBtn()
+[Method: GET, Route: /]
+in APPPATH\Views\right-sidebar.php on line 45.
+ 1 APPPATH\Views\home.php(226): require()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\twitter\\app\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Frontend\Home.php(21): view('home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-01 03:56:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-01 03:56:08 --> Error: Call to undefined function followBtn()
+[Method: GET, Route: /]
+in APPPATH\Views\right-sidebar.php on line 45.
+ 1 APPPATH\Views\home.php(226): require()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\twitter\\app\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Frontend\Home.php(20): view('home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-01 03:56:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-01 03:56:26 --> Error: Call to undefined function followBtn()
+[Method: GET, Route: /]
+in APPPATH\Views\right-sidebar.php on line 45.
+ 1 APPPATH\Views\home.php(226): require()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\twitter\\app\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Frontend\Home.php(20): view('home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-01 03:56:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-01 03:56:42 --> Error: Call to undefined function followBtn()
+[Method: GET, Route: /]
+in APPPATH\Views\right-sidebar.php on line 45.
+ 1 APPPATH\Views\home.php(226): require()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\twitter\\app\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Frontend\Home.php(20): view('home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-01 04:04:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-01 04:04:20 --> Error: Call to undefined function followBtn()
+[Method: GET, Route: /]
+in APPPATH\Views\right-sidebar.php on line 45.
+ 1 APPPATH\Views\home.php(226): require()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\twitter\\app\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Frontend\Home.php(20): view('home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-01 04:05:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-01 04:05:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-01 09:31:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-01 09:31:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-01 09:32:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-01 09:32:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-01 09:32:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-01 10:20:20 --> ErrorException: include(core/init.php): Failed to open stream: No such file or directory
+[Method: GET, Route: profile/Bale237]
+in APPPATH\Views\profile.php on line 2.
+ 1 APPPATH\Views\profile.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(core/init.php): Failed to open stream: No such file or directory', 'C:\\wamp64\\www\\twitter\\app\\Views\\profile.php', 2)
+ 2 APPPATH\Views\profile.php(2): include()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\twitter\\app\\Views\\profile.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('profile', [], true)
+ 6 APPPATH\Controllers\Frontend\ProfileController.php(15): view('profile', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\ProfileController->index('Bale237')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-01 10:21:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-01 10:21:03 --> ErrorException: include(core/init.php): Failed to open stream: No such file or directory
+[Method: GET, Route: profile/Bale237]
+in APPPATH\Views\profile.php on line 2.
+ 1 APPPATH\Views\profile.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(core/init.php): Failed to open stream: No such file or directory', 'C:\\wamp64\\www\\twitter\\app\\Views\\profile.php', 2)
+ 2 APPPATH\Views\profile.php(2): include()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\twitter\\app\\Views\\profile.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('profile', [], true)
+ 6 APPPATH\Controllers\Frontend\ProfileController.php(15): view('profile', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\ProfileController->index('Bale237')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-01 10:36:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-01 10:36:37 --> BadMethodCallException: Call to undefined method App\Models\Users::userIdByUsername
+[Method: GET, Route: profile/Bale237]
+in SYSTEMPATH\Model.php on line 921.
+ 1 APPPATH\Controllers\Frontend\ProfileController.php(10): CodeIgniter\Model->__call('userIdByUsername', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\ProfileController->index('Bale237')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-01 12:02:32 --> ParseError: syntax error, unexpected token "}", expecting ";"
+[Method: GET, Route: profile/Bale237]
+in APPPATH\Models\Users.php on line 170.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\twitter\\app\\Models\\Users.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Users')
+ 3 APPPATH\Controllers\Frontend\BaseController.php(64): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Users')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Frontend\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-01 12:03:32 --> ParseError: syntax error, unexpected token "}", expecting ";"
+[Method: GET, Route: profile/Bale237]
+in APPPATH\Models\Users.php on line 170.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\twitter\\app\\Models\\Users.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Users')
+ 3 APPPATH\Controllers\Frontend\BaseController.php(64): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Users')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Frontend\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-01 12:03:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-01 12:03:51 --> BadMethodCallException: Call to undefined method App\Models\Users::userIdByUsername
+[Method: GET, Route: profile/Bale237]
+in SYSTEMPATH\Model.php on line 921.
+ 1 APPPATH\Controllers\Frontend\ProfileController.php(10): CodeIgniter\Model->__call('userIdByUsername', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\ProfileController->index('Bale237')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-01 12:04:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-01 12:04:17 --> ErrorException: Undefined variable $trends
+[Method: GET, Route: profile/Bale237]
+in APPPATH\Views\right-sidebar.php on line 13.
+ 1 APPPATH\Views\right-sidebar.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $trends', 'C:\\wamp64\\www\\twitter\\app\\Views\\right-sidebar.php', 13)
+ 2 APPPATH\Views\profile.php(113): require('C:\\wamp64\\www\\twitter\\app\\Views\\right-sidebar.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\twitter\\app\\Views\\profile.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('profile', [], true)
+ 6 APPPATH\Controllers\Frontend\ProfileController.php(28): view('profile', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\ProfileController->index('Bale237')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-01 12:07:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-01 12:08:01 --> ErrorException: Undefined variable $trends
+[Method: GET, Route: profile/Bale237]
+in APPPATH\Views\right-sidebar.php on line 13.
+ 1 APPPATH\Views\right-sidebar.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $trends', 'C:\\wamp64\\www\\twitter\\app\\Views\\right-sidebar.php', 13)
+ 2 APPPATH\Views\profile.php(113): require('C:\\wamp64\\www\\twitter\\app\\Views\\right-sidebar.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\twitter\\app\\Views\\profile.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('profile', [], true)
+ 6 APPPATH\Controllers\Frontend\ProfileController.php(28): view('profile', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\ProfileController->index('Bale237')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-01 12:10:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-01 12:10:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-01 12:10:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-01 12:10:58 --> ErrorException: Attempt to read property "user_id" on null
+[Method: GET, Route: profile/assets/images/loading.svg]
+in APPPATH\Models\Users.php on line 169.
+ 1 APPPATH\Models\Users.php(169): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "user_id" on null', 'C:\\wamp64\\www\\twitter\\app\\Models\\Users.php', 169)
+ 2 APPPATH\Controllers\Frontend\ProfileController.php(10): App\Models\Users->UserIdByUsername('assets')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\ProfileController->index('assets', 'images', 'loading.svg')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\ProfileController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-01 12:10:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-01 12:11:01 --> ErrorException: Attempt to read property "user_id" on null
+[Method: GET, Route: profile/assets/images/bird.svg]
+in APPPATH\Models\Users.php on line 169.
+ 1 APPPATH\Models\Users.php(169): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "user_id" on null', 'C:\\wamp64\\www\\twitter\\app\\Models\\Users.php', 169)
+ 2 APPPATH\Controllers\Frontend\ProfileController.php(10): App\Models\Users->UserIdByUsername('assets')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\ProfileController->index('assets', 'images', 'bird.svg')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\ProfileController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-01 12:13:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-01 12:13:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-01 12:14:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-01 12:14:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-01 12:14:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-01 12:14:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-01 12:14:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-01 12:14:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-01 12:14:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-01 12:24:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-01 12:24:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-01 12:25:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-01 12:25:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-01 12:25:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-01 12:25:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-01 12:25:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-01 12:27:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-01 12:27:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-01 12:27:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-01 12:27:55 --> ErrorException: Attempt to read property "user_id" on null
+[Method: GET, Route: profile/assets/images/loading.svg]
+in APPPATH\Models\Users.php on line 169.
+ 1 APPPATH\Models\Users.php(169): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "user_id" on null', 'C:\\wamp64\\www\\twitter\\app\\Models\\Users.php', 169)
+ 2 APPPATH\Controllers\Frontend\ProfileController.php(10): App\Models\Users->UserIdByUsername('assets')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\ProfileController->index('assets', 'images', 'loading.svg')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\ProfileController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-01 12:27:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-01 12:27:56 --> ErrorException: Attempt to read property "user_id" on null
+[Method: GET, Route: profile/assets/images/bird.svg]
+in APPPATH\Models\Users.php on line 169.
+ 1 APPPATH\Models\Users.php(169): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "user_id" on null', 'C:\\wamp64\\www\\twitter\\app\\Models\\Users.php', 169)
+ 2 APPPATH\Controllers\Frontend\ProfileController.php(10): App\Models\Users->UserIdByUsername('assets')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\ProfileController->index('assets', 'images', 'bird.svg')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\ProfileController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-01 12:29:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-01 12:29:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-01 12:29:36 --> ErrorException: Attempt to read property "user_id" on null
+[Method: GET, Route: profile/assets/images/bird.svg]
+in APPPATH\Models\Users.php on line 169.
+ 1 APPPATH\Models\Users.php(169): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "user_id" on null', 'C:\\wamp64\\www\\twitter\\app\\Models\\Users.php', 169)
+ 2 APPPATH\Controllers\Frontend\ProfileController.php(10): App\Models\Users->UserIdByUsername('assets')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\ProfileController->index('assets', 'images', 'bird.svg')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\ProfileController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-01 13:07:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-01 13:08:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-01 13:08:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-01 13:08:19 --> ErrorException: Attempt to read property "user_id" on null
+[Method: GET, Route: profile/assets/images/bird.svg]
+in APPPATH\Models\Users.php on line 169.
+ 1 APPPATH\Models\Users.php(169): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "user_id" on null', 'C:\\wamp64\\www\\twitter\\app\\Models\\Users.php', 169)
+ 2 APPPATH\Controllers\Frontend\ProfileController.php(10): App\Models\Users->UserIdByUsername('assets')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\ProfileController->index('assets', 'images', 'bird.svg')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\ProfileController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-01 13:08:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-01 13:08:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-01 13:08:33 --> ErrorException: Undefined variable $notify
+[Method: POST, Route: tweet/submit]
+in APPPATH\Views\left-sidebar.php on line 10.
+ 1 APPPATH\Views\left-sidebar.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $notify', 'C:\\wamp64\\www\\twitter\\app\\Views\\left-sidebar.php', 10)
+ 2 APPPATH\Views\home.php(29): require('C:\\wamp64\\www\\twitter\\app\\Views\\left-sidebar.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\twitter\\app\\Views\\home.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 6 APPPATH\Controllers\Frontend\TweetController.php(58): view('home', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\TweetController->submit()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\TweetController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-01 13:35:58 --> ParseError: Unclosed '{' on line 53 does not match ')'
+[Method: POST, Route: tweet/submit]
+in APPPATH\Controllers\Frontend\BaseController.php on line 70.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\twitter\\app\\Controllers\\Frontend\\BaseController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Frontend\\BaseController')
+ 3 APPPATH\Controllers\Frontend\TweetController.php(5): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Frontend\\BaseController')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\wamp64\\www\\twitter\\app\\Controllers\\Frontend\\TweetController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\twitter\\app\\Controllers\\Frontend\\TweetController.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Frontend\\TweetController')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Frontend\\TweetController')
+ 8 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Frontend\\TweetController', true)
+ 9 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-01 13:36:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-01 13:36:59 --> ErrorException: Undefined variable $session
+[Method: POST, Route: tweet/submit]
+in APPPATH\Controllers\Frontend\BaseController.php on line 70.
+ 1 APPPATH\Controllers\Frontend\BaseController.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\wamp64\\www\\twitter\\app\\Controllers\\Frontend\\BaseController.php', 70)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Frontend\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 3 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-01 13:37:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-01 13:37:42 --> ErrorException: Undefined variable $tweets
+[Method: POST, Route: tweet/submit]
+in APPPATH\Views\home.php on line 90.
+ 1 APPPATH\Views\home.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tweets', 'C:\\wamp64\\www\\twitter\\app\\Views\\home.php', 90)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\twitter\\app\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Frontend\TweetController.php(58): view('home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\TweetController->submit()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\TweetController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-01 13:41:05 --> ParseError: syntax error, unexpected token "=", expecting "]"
+[Method: POST, Route: tweet/submit]
+in APPPATH\Controllers\Frontend\BaseController.php on line 84.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\twitter\\app\\Controllers\\Frontend\\BaseController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Frontend\\BaseController')
+ 3 APPPATH\Controllers\Frontend\TweetController.php(5): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Frontend\\BaseController')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\wamp64\\www\\twitter\\app\\Controllers\\Frontend\\TweetController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\twitter\\app\\Controllers\\Frontend\\TweetController.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Frontend\\TweetController')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Frontend\\TweetController')
+ 8 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Frontend\\TweetController', true)
+ 9 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-01 13:41:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-01 13:41:29 --> ErrorException: Undefined variable $whotofollow
+[Method: POST, Route: tweet/submit]
+in APPPATH\Views\right-sidebar.php on line 35.
+ 1 APPPATH\Views\right-sidebar.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $whotofollow', 'C:\\wamp64\\www\\twitter\\app\\Views\\right-sidebar.php', 35)
+ 2 APPPATH\Views\home.php(226): require('C:\\wamp64\\www\\twitter\\app\\Views\\right-sidebar.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\twitter\\app\\Views\\home.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 6 APPPATH\Controllers\Frontend\TweetController.php(58): view('home', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\TweetController->submit()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\TweetController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-01 13:43:16 --> ParseError: syntax error, unexpected token ";", expecting "]"
+[Method: POST, Route: tweet/submit]
+in APPPATH\Controllers\Frontend\BaseController.php on line 86.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\twitter\\app\\Controllers\\Frontend\\BaseController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Frontend\\BaseController')
+ 3 APPPATH\Controllers\Frontend\TweetController.php(5): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Frontend\\BaseController')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\wamp64\\www\\twitter\\app\\Controllers\\Frontend\\TweetController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\twitter\\app\\Controllers\\Frontend\\TweetController.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Frontend\\TweetController')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Frontend\\TweetController')
+ 8 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Frontend\\TweetController', true)
+ 9 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-01 13:43:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-01 13:44:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-01 13:44:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-01 13:44:19 --> ErrorException: Undefined property: App\Controllers\Frontend\Login::$data
+[Method: GET, Route: login]
+in APPPATH\Controllers\Frontend\Login.php on line 10.
+ 1 APPPATH\Controllers\Frontend\Login.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Frontend\\Login::$data', 'C:\\wamp64\\www\\twitter\\app\\Controllers\\Frontend\\Login.php', 10)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-01 13:46:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-01 13:48:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-01 13:50:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-01 13:50:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-01 13:50:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-01 13:50:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-01 13:50:34 --> ErrorException: Attempt to read property "user_id" on null
+[Method: GET, Route: profile/assets/images/bird.svg]
+in APPPATH\Models\Users.php on line 169.
+ 1 APPPATH\Models\Users.php(169): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "user_id" on null', 'C:\\wamp64\\www\\twitter\\app\\Models\\Users.php', 169)
+ 2 APPPATH\Controllers\Frontend\ProfileController.php(10): App\Models\Users->UserIdByUsername('assets')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\ProfileController->index('assets', 'images', 'bird.svg')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\ProfileController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-01 13:50:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-01 13:50:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-01 13:50:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-01 13:51:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-01 13:51:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-01 13:53:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-01 13:53:29 --> BadMethodCallException: Call to undefined method App\Models\Tweets::uploadImage
+[Method: POST, Route: tweet/submit]
+in SYSTEMPATH\Model.php on line 921.
+ 1 APPPATH\Controllers\Frontend\TweetController.php(29): CodeIgniter\Model->__call('uploadImage', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\TweetController->submit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\TweetController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-01 17:57:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-01 17:57:50 --> ErrorException: Undefined variable $error
+[Method: POST, Route: tweet/submit]
+in APPPATH\Controllers\Frontend\TweetController.php on line 36.
+ 1 APPPATH\Controllers\Frontend\TweetController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $error', 'C:\\wamp64\\www\\twitter\\app\\Controllers\\Frontend\\TweetController.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\TweetController->submit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\TweetController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-01 17:58:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-01 17:59:01 --> BadMethodCallException: Call to undefined method App\Models\Tweets::createTweet
+[Method: POST, Route: tweet/submit]
+in SYSTEMPATH\Model.php on line 921.
+ 1 APPPATH\Controllers\Frontend\TweetController.php(43): CodeIgniter\Model->__call('createTweet', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\TweetController->submit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\TweetController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-01 17:59:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-01 17:59:04 --> BadMethodCallException: Call to undefined method App\Models\Tweets::createTweet
+[Method: POST, Route: tweet/submit]
+in SYSTEMPATH\Model.php on line 921.
+ 1 APPPATH\Controllers\Frontend\TweetController.php(43): CodeIgniter\Model->__call('createTweet', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\TweetController->submit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\TweetController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-01 18:04:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-01 18:04:08 --> BadMethodCallException: Call to undefined method App\Models\Users::createTweet
+[Method: POST, Route: tweet/submit]
+in SYSTEMPATH\Model.php on line 921.
+ 1 APPPATH\Controllers\Frontend\TweetController.php(43): CodeIgniter\Model->__call('createTweet', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\TweetController->submit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\TweetController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-01 18:04:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-01 18:04:29 --> mysqli_sql_exception: Column 'tweetBy' cannot be null in C:\wamp64\www\twitter\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\wamp64\www\twitter\system\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `tw...', 0)
+#1 C:\wamp64\www\twitter\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tw...')
+#2 C:\wamp64\www\twitter\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tw...')
+#3 C:\wamp64\www\twitter\system\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tw...', Array, false)
+#4 C:\wamp64\www\twitter\app\Models\Users.php(99): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64\www\twitter\app\Controllers\Frontend\TweetController.php(43): App\Models\Users->create('tweets', Array)
+#6 C:\wamp64\www\twitter\system\CodeIgniter.php(933): App\Controllers\Frontend\TweetController->submit()
+#7 C:\wamp64\www\twitter\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\TweetController))
+#8 C:\wamp64\www\twitter\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\twitter\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\twitter\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\wamp64\www\twitter\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-05-01 18:04:30 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'tweetBy' cannot be null
+[Method: POST, Route: tweet/submit]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tweets` (`status`, `tweetBy`, `tweetImage`) VALUES (:status:, :tweetBy:, :tweetImage:)', [...], false)
+ 2 APPPATH\Models\Users.php(99): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Frontend\TweetController.php(43): App\Models\Users->create('tweets', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\TweetController->submit()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\TweetController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-01 18:04:30 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'tweetBy' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tweets` (`status`, `tweetBy`, `tweetImage`) VALUES (\'Testing\', NULL, \'uploads/profile_images/1714586661_9061d568241a4b50569c.jpg\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tweets` (`status`, `tweetBy`, `tweetImage`) VALUES (\'Testing\', NULL, \'uploads/profile_images/1714586661_9061d568241a4b50569c.jpg\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tweets` (`status`, `tweetBy`, `tweetImage`) VALUES (:status:, :tweetBy:, :tweetImage:)', [...], false)
+ 4 APPPATH\Models\Users.php(99): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\Frontend\TweetController.php(43): App\Models\Users->create('tweets', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\TweetController->submit()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\TweetController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-01 18:04:30 --> [Caused by] mysqli_sql_exception: Column 'tweetBy' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `tweets` (`status`, `tweetBy`, `tweetImage`) VALUES (\'Testing\', NULL, \'uploads/profile_images/1714586661_9061d568241a4b50569c.jpg\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tweets` (`status`, `tweetBy`, `tweetImage`) VALUES (\'Testing\', NULL, \'uploads/profile_images/1714586661_9061d568241a4b50569c.jpg\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tweets` (`status`, `tweetBy`, `tweetImage`) VALUES (\'Testing\', NULL, \'uploads/profile_images/1714586661_9061d568241a4b50569c.jpg\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tweets` (`status`, `tweetBy`, `tweetImage`) VALUES (:status:, :tweetBy:, :tweetImage:)', [...], false)
+ 5 APPPATH\Models\Users.php(99): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Frontend\TweetController.php(43): App\Models\Users->create('tweets', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\TweetController->submit()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\TweetController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-01 18:05:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-01 18:05:56 --> mysqli_sql_exception: Column 'tweetBy' cannot be null in C:\wamp64\www\twitter\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\wamp64\www\twitter\system\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `tw...', 0)
+#1 C:\wamp64\www\twitter\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tw...')
+#2 C:\wamp64\www\twitter\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tw...')
+#3 C:\wamp64\www\twitter\system\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tw...', Array, false)
+#4 C:\wamp64\www\twitter\app\Models\Users.php(99): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64\www\twitter\app\Controllers\Frontend\TweetController.php(43): App\Models\Users->create('tweets', Array)
+#6 C:\wamp64\www\twitter\system\CodeIgniter.php(933): App\Controllers\Frontend\TweetController->submit()
+#7 C:\wamp64\www\twitter\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\TweetController))
+#8 C:\wamp64\www\twitter\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\twitter\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\twitter\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\wamp64\www\twitter\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-05-01 18:05:56 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'tweetBy' cannot be null
+[Method: POST, Route: tweet/submit]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tweets` (`status`, `tweetBy`, `tweetImage`) VALUES (:status:, :tweetBy:, :tweetImage:)', [...], false)
+ 2 APPPATH\Models\Users.php(99): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Frontend\TweetController.php(43): App\Models\Users->create('tweets', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\TweetController->submit()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\TweetController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-01 18:05:56 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'tweetBy' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tweets` (`status`, `tweetBy`, `tweetImage`) VALUES (\'Testing\', NULL, \'uploads/profile_images/1714586755_ce84ec5928e343ddfd7a.jpg\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tweets` (`status`, `tweetBy`, `tweetImage`) VALUES (\'Testing\', NULL, \'uploads/profile_images/1714586755_ce84ec5928e343ddfd7a.jpg\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tweets` (`status`, `tweetBy`, `tweetImage`) VALUES (:status:, :tweetBy:, :tweetImage:)', [...], false)
+ 4 APPPATH\Models\Users.php(99): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\Frontend\TweetController.php(43): App\Models\Users->create('tweets', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\TweetController->submit()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\TweetController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-01 18:05:56 --> [Caused by] mysqli_sql_exception: Column 'tweetBy' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `tweets` (`status`, `tweetBy`, `tweetImage`) VALUES (\'Testing\', NULL, \'uploads/profile_images/1714586755_ce84ec5928e343ddfd7a.jpg\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tweets` (`status`, `tweetBy`, `tweetImage`) VALUES (\'Testing\', NULL, \'uploads/profile_images/1714586755_ce84ec5928e343ddfd7a.jpg\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tweets` (`status`, `tweetBy`, `tweetImage`) VALUES (\'Testing\', NULL, \'uploads/profile_images/1714586755_ce84ec5928e343ddfd7a.jpg\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tweets` (`status`, `tweetBy`, `tweetImage`) VALUES (:status:, :tweetBy:, :tweetImage:)', [...], false)
+ 5 APPPATH\Models\Users.php(99): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Frontend\TweetController.php(43): App\Models\Users->create('tweets', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\TweetController->submit()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\TweetController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-01 18:06:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-01 18:06:30 --> ErrorException: Undefined property: App\Controllers\Frontend\Home::$data
+[Method: GET, Route: /]
+in APPPATH\Controllers\Frontend\Home.php on line 20.
+ 1 APPPATH\Controllers\Frontend\Home.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Frontend\\Home::$data', 'C:\\wamp64\\www\\twitter\\app\\Controllers\\Frontend\\Home.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-01 18:09:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-01 18:09:25 --> ErrorException: Undefined property: App\Controllers\Frontend\Home::$data
+[Method: GET, Route: /]
+in APPPATH\Controllers\Frontend\Home.php on line 10.
+ 1 APPPATH\Controllers\Frontend\Home.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Frontend\\Home::$data', 'C:\\wamp64\\www\\twitter\\app\\Controllers\\Frontend\\Home.php', 10)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-01 18:10:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-01 18:16:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-01 18:16:44 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+ )
+ORDER BY `tweets`.`tweetID` DESC
+ LIMIT 20' at line 11 in C:\wamp64\www\twitter\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\wamp64\www\twitter\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT `tweets`...', 0)
+#1 C:\wamp64\www\twitter\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tweets`...')
+#2 C:\wamp64\www\twitter\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tweets`...')
+#3 C:\wamp64\www\twitter\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `tweets`...', Array, false)
+#4 C:\wamp64\www\twitter\app\Models\Tweets.php(47): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\twitter\app\Controllers\Frontend\BaseController.php(96): App\Models\Tweets->getTweets(NULL, 20)
+#6 C:\wamp64\www\twitter\system\CodeIgniter.php(904): App\Controllers\Frontend\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#7 C:\wamp64\www\twitter\system\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+#8 C:\wamp64\www\twitter\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\twitter\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\twitter\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\wamp64\www\twitter\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-05-01 18:16:44 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+ )
+ORDER BY `tweets`.`tweetID` DESC
+ LIMIT 20' at line 11
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `tweets`.*, `users`.`screenName`, `users`.`username`, `users`.`profileImage`
+FROM `tweets`
+JOIN `users` ON `tweets`.`tweetBy` = `users`.`user_id`
+WHERE   (
+`tweets`.`tweetBy` IS NULL
+AND `tweets`.`retweetID` = :tweets.retweetID:
+ )
+OR   (
+`tweets`.`tweetBy` IS NULL
+AND `tweets`.`retweetBy` IS NOT NULL
+AND tweets.tweetBy IN (SELECT `receiver` FROM `follow` WHERE `sender` = )
+ )
+ORDER BY `tweets`.`tweetID` DESC
+ LIMIT 20', [...], false)
+ 2 APPPATH\Models\Tweets.php(47): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Frontend\BaseController.php(96): App\Models\Tweets->getTweets(null, 20)
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Frontend\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-01 18:16:44 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+ )
+ORDER BY `tweets`.`tweetID` DESC
+ LIMIT 20' at line 11
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tweets`.*, `users`.`screenName`, `users`.`username`, `users`.`profileImage`
+FROM `tweets`
+JOIN `users` ON `tweets`.`tweetBy` = `users`.`user_id`
+WHERE   (
+`tweets`.`tweetBy` IS NULL
+AND `tweets`.`retweetID` = 0
+ )
+OR   (
+`tweets`.`tweetBy` IS NULL
+AND `tweets`.`retweetBy` IS NOT NULL
+AND tweets.tweetBy IN (SELECT `receiver` FROM `follow` WHERE `sender` = )
+ )
+ORDER BY `tweets`.`tweetID` DESC
+ LIMIT 20')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tweets`.*, `users`.`screenName`, `users`.`username`, `users`.`profileImage`
+FROM `tweets`
+JOIN `users` ON `tweets`.`tweetBy` = `users`.`user_id`
+WHERE   (
+`tweets`.`tweetBy` IS NULL
+AND `tweets`.`retweetID` = 0
+ )
+OR   (
+`tweets`.`tweetBy` IS NULL
+AND `tweets`.`retweetBy` IS NOT NULL
+AND tweets.tweetBy IN (SELECT `receiver` FROM `follow` WHERE `sender` = )
+ )
+ORDER BY `tweets`.`tweetID` DESC
+ LIMIT 20')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `tweets`.*, `users`.`screenName`, `users`.`username`, `users`.`profileImage`
+FROM `tweets`
+JOIN `users` ON `tweets`.`tweetBy` = `users`.`user_id`
+WHERE   (
+`tweets`.`tweetBy` IS NULL
+AND `tweets`.`retweetID` = :tweets.retweetID:
+ )
+OR   (
+`tweets`.`tweetBy` IS NULL
+AND `tweets`.`retweetBy` IS NOT NULL
+AND tweets.tweetBy IN (SELECT `receiver` FROM `follow` WHERE `sender` = )
+ )
+ORDER BY `tweets`.`tweetID` DESC
+ LIMIT 20', [...], false)
+ 4 APPPATH\Models\Tweets.php(47): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Frontend\BaseController.php(96): App\Models\Tweets->getTweets(null, 20)
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Frontend\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 7 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-01 18:16:44 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+ )
+ORDER BY `tweets`.`tweetID` DESC
+ LIMIT 20' at line 11
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT `tweets`.*, `users`.`screenName`, `users`.`username`, `users`.`profileImage`
+FROM `tweets`
+JOIN `users` ON `tweets`.`tweetBy` = `users`.`user_id`
+WHERE   (
+`tweets`.`tweetBy` IS NULL
+AND `tweets`.`retweetID` = 0
+ )
+OR   (
+`tweets`.`tweetBy` IS NULL
+AND `tweets`.`retweetBy` IS NOT NULL
+AND tweets.tweetBy IN (SELECT `receiver` FROM `follow` WHERE `sender` = )
+ )
+ORDER BY `tweets`.`tweetID` DESC
+ LIMIT 20', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tweets`.*, `users`.`screenName`, `users`.`username`, `users`.`profileImage`
+FROM `tweets`
+JOIN `users` ON `tweets`.`tweetBy` = `users`.`user_id`
+WHERE   (
+`tweets`.`tweetBy` IS NULL
+AND `tweets`.`retweetID` = 0
+ )
+OR   (
+`tweets`.`tweetBy` IS NULL
+AND `tweets`.`retweetBy` IS NOT NULL
+AND tweets.tweetBy IN (SELECT `receiver` FROM `follow` WHERE `sender` = )
+ )
+ORDER BY `tweets`.`tweetID` DESC
+ LIMIT 20')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tweets`.*, `users`.`screenName`, `users`.`username`, `users`.`profileImage`
+FROM `tweets`
+JOIN `users` ON `tweets`.`tweetBy` = `users`.`user_id`
+WHERE   (
+`tweets`.`tweetBy` IS NULL
+AND `tweets`.`retweetID` = 0
+ )
+OR   (
+`tweets`.`tweetBy` IS NULL
+AND `tweets`.`retweetBy` IS NOT NULL
+AND tweets.tweetBy IN (SELECT `receiver` FROM `follow` WHERE `sender` = )
+ )
+ORDER BY `tweets`.`tweetID` DESC
+ LIMIT 20')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `tweets`.*, `users`.`screenName`, `users`.`username`, `users`.`profileImage`
+FROM `tweets`
+JOIN `users` ON `tweets`.`tweetBy` = `users`.`user_id`
+WHERE   (
+`tweets`.`tweetBy` IS NULL
+AND `tweets`.`retweetID` = :tweets.retweetID:
+ )
+OR   (
+`tweets`.`tweetBy` IS NULL
+AND `tweets`.`retweetBy` IS NOT NULL
+AND tweets.tweetBy IN (SELECT `receiver` FROM `follow` WHERE `sender` = )
+ )
+ORDER BY `tweets`.`tweetID` DESC
+ LIMIT 20', [...], false)
+ 5 APPPATH\Models\Tweets.php(47): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Frontend\BaseController.php(96): App\Models\Tweets->getTweets(null, 20)
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Frontend\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 8 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-01 18:18:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-01 18:18:26 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+ )
+ORDER BY `tweets`.`tweetID` DESC
+ LIMIT 20' at line 11 in C:\wamp64\www\twitter\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\wamp64\www\twitter\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT `tweets`...', 0)
+#1 C:\wamp64\www\twitter\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tweets`...')
+#2 C:\wamp64\www\twitter\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tweets`...')
+#3 C:\wamp64\www\twitter\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `tweets`...', Array, false)
+#4 C:\wamp64\www\twitter\app\Models\Tweets.php(47): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\twitter\app\Controllers\Frontend\BaseController.php(96): App\Models\Tweets->getTweets(NULL, 20)
+#6 C:\wamp64\www\twitter\system\CodeIgniter.php(904): App\Controllers\Frontend\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#7 C:\wamp64\www\twitter\system\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+#8 C:\wamp64\www\twitter\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\twitter\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\twitter\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\wamp64\www\twitter\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-05-01 18:18:26 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+ )
+ORDER BY `tweets`.`tweetID` DESC
+ LIMIT 20' at line 11
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `tweets`.*, `users`.`screenName`, `users`.`username`, `users`.`profileImage`
+FROM `tweets`
+JOIN `users` ON `tweets`.`tweetBy` = `users`.`user_id`
+WHERE   (
+`tweets`.`tweetBy` IS NULL
+AND `tweets`.`retweetID` = :tweets.retweetID:
+ )
+OR   (
+`tweets`.`tweetBy` IS NULL
+AND `tweets`.`retweetBy` IS NOT NULL
+AND tweets.tweetBy IN (SELECT `receiver` FROM `follow` WHERE `sender` = )
+ )
+ORDER BY `tweets`.`tweetID` DESC
+ LIMIT 20', [...], false)
+ 2 APPPATH\Models\Tweets.php(47): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Frontend\BaseController.php(96): App\Models\Tweets->getTweets(null, 20)
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Frontend\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-01 18:18:26 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+ )
+ORDER BY `tweets`.`tweetID` DESC
+ LIMIT 20' at line 11
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tweets`.*, `users`.`screenName`, `users`.`username`, `users`.`profileImage`
+FROM `tweets`
+JOIN `users` ON `tweets`.`tweetBy` = `users`.`user_id`
+WHERE   (
+`tweets`.`tweetBy` IS NULL
+AND `tweets`.`retweetID` = 0
+ )
+OR   (
+`tweets`.`tweetBy` IS NULL
+AND `tweets`.`retweetBy` IS NOT NULL
+AND tweets.tweetBy IN (SELECT `receiver` FROM `follow` WHERE `sender` = )
+ )
+ORDER BY `tweets`.`tweetID` DESC
+ LIMIT 20')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tweets`.*, `users`.`screenName`, `users`.`username`, `users`.`profileImage`
+FROM `tweets`
+JOIN `users` ON `tweets`.`tweetBy` = `users`.`user_id`
+WHERE   (
+`tweets`.`tweetBy` IS NULL
+AND `tweets`.`retweetID` = 0
+ )
+OR   (
+`tweets`.`tweetBy` IS NULL
+AND `tweets`.`retweetBy` IS NOT NULL
+AND tweets.tweetBy IN (SELECT `receiver` FROM `follow` WHERE `sender` = )
+ )
+ORDER BY `tweets`.`tweetID` DESC
+ LIMIT 20')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `tweets`.*, `users`.`screenName`, `users`.`username`, `users`.`profileImage`
+FROM `tweets`
+JOIN `users` ON `tweets`.`tweetBy` = `users`.`user_id`
+WHERE   (
+`tweets`.`tweetBy` IS NULL
+AND `tweets`.`retweetID` = :tweets.retweetID:
+ )
+OR   (
+`tweets`.`tweetBy` IS NULL
+AND `tweets`.`retweetBy` IS NOT NULL
+AND tweets.tweetBy IN (SELECT `receiver` FROM `follow` WHERE `sender` = )
+ )
+ORDER BY `tweets`.`tweetID` DESC
+ LIMIT 20', [...], false)
+ 4 APPPATH\Models\Tweets.php(47): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Frontend\BaseController.php(96): App\Models\Tweets->getTweets(null, 20)
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Frontend\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 7 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-01 18:18:26 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+ )
+ORDER BY `tweets`.`tweetID` DESC
+ LIMIT 20' at line 11
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT `tweets`.*, `users`.`screenName`, `users`.`username`, `users`.`profileImage`
+FROM `tweets`
+JOIN `users` ON `tweets`.`tweetBy` = `users`.`user_id`
+WHERE   (
+`tweets`.`tweetBy` IS NULL
+AND `tweets`.`retweetID` = 0
+ )
+OR   (
+`tweets`.`tweetBy` IS NULL
+AND `tweets`.`retweetBy` IS NOT NULL
+AND tweets.tweetBy IN (SELECT `receiver` FROM `follow` WHERE `sender` = )
+ )
+ORDER BY `tweets`.`tweetID` DESC
+ LIMIT 20', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tweets`.*, `users`.`screenName`, `users`.`username`, `users`.`profileImage`
+FROM `tweets`
+JOIN `users` ON `tweets`.`tweetBy` = `users`.`user_id`
+WHERE   (
+`tweets`.`tweetBy` IS NULL
+AND `tweets`.`retweetID` = 0
+ )
+OR   (
+`tweets`.`tweetBy` IS NULL
+AND `tweets`.`retweetBy` IS NOT NULL
+AND tweets.tweetBy IN (SELECT `receiver` FROM `follow` WHERE `sender` = )
+ )
+ORDER BY `tweets`.`tweetID` DESC
+ LIMIT 20')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tweets`.*, `users`.`screenName`, `users`.`username`, `users`.`profileImage`
+FROM `tweets`
+JOIN `users` ON `tweets`.`tweetBy` = `users`.`user_id`
+WHERE   (
+`tweets`.`tweetBy` IS NULL
+AND `tweets`.`retweetID` = 0
+ )
+OR   (
+`tweets`.`tweetBy` IS NULL
+AND `tweets`.`retweetBy` IS NOT NULL
+AND tweets.tweetBy IN (SELECT `receiver` FROM `follow` WHERE `sender` = )
+ )
+ORDER BY `tweets`.`tweetID` DESC
+ LIMIT 20')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `tweets`.*, `users`.`screenName`, `users`.`username`, `users`.`profileImage`
+FROM `tweets`
+JOIN `users` ON `tweets`.`tweetBy` = `users`.`user_id`
+WHERE   (
+`tweets`.`tweetBy` IS NULL
+AND `tweets`.`retweetID` = :tweets.retweetID:
+ )
+OR   (
+`tweets`.`tweetBy` IS NULL
+AND `tweets`.`retweetBy` IS NOT NULL
+AND tweets.tweetBy IN (SELECT `receiver` FROM `follow` WHERE `sender` = )
+ )
+ORDER BY `tweets`.`tweetID` DESC
+ LIMIT 20', [...], false)
+ 5 APPPATH\Models\Tweets.php(47): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Frontend\BaseController.php(96): App\Models\Tweets->getTweets(null, 20)
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Frontend\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 8 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-01 18:18:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-01 18:18:32 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+ )
+ORDER BY `tweets`.`tweetID` DESC
+ LIMIT 20' at line 11 in C:\wamp64\www\twitter\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\wamp64\www\twitter\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT `tweets`...', 0)
+#1 C:\wamp64\www\twitter\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tweets`...')
+#2 C:\wamp64\www\twitter\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tweets`...')
+#3 C:\wamp64\www\twitter\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `tweets`...', Array, false)
+#4 C:\wamp64\www\twitter\app\Models\Tweets.php(47): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\twitter\app\Controllers\Frontend\BaseController.php(96): App\Models\Tweets->getTweets(NULL, 20)
+#6 C:\wamp64\www\twitter\system\CodeIgniter.php(904): App\Controllers\Frontend\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#7 C:\wamp64\www\twitter\system\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+#8 C:\wamp64\www\twitter\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\twitter\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\twitter\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\wamp64\www\twitter\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-05-01 18:18:32 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+ )
+ORDER BY `tweets`.`tweetID` DESC
+ LIMIT 20' at line 11
+[Method: GET, Route: login]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `tweets`.*, `users`.`screenName`, `users`.`username`, `users`.`profileImage`
+FROM `tweets`
+JOIN `users` ON `tweets`.`tweetBy` = `users`.`user_id`
+WHERE   (
+`tweets`.`tweetBy` IS NULL
+AND `tweets`.`retweetID` = :tweets.retweetID:
+ )
+OR   (
+`tweets`.`tweetBy` IS NULL
+AND `tweets`.`retweetBy` IS NOT NULL
+AND tweets.tweetBy IN (SELECT `receiver` FROM `follow` WHERE `sender` = )
+ )
+ORDER BY `tweets`.`tweetID` DESC
+ LIMIT 20', [...], false)
+ 2 APPPATH\Models\Tweets.php(47): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Frontend\BaseController.php(96): App\Models\Tweets->getTweets(null, 20)
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Frontend\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-01 18:18:32 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+ )
+ORDER BY `tweets`.`tweetID` DESC
+ LIMIT 20' at line 11
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tweets`.*, `users`.`screenName`, `users`.`username`, `users`.`profileImage`
+FROM `tweets`
+JOIN `users` ON `tweets`.`tweetBy` = `users`.`user_id`
+WHERE   (
+`tweets`.`tweetBy` IS NULL
+AND `tweets`.`retweetID` = 0
+ )
+OR   (
+`tweets`.`tweetBy` IS NULL
+AND `tweets`.`retweetBy` IS NOT NULL
+AND tweets.tweetBy IN (SELECT `receiver` FROM `follow` WHERE `sender` = )
+ )
+ORDER BY `tweets`.`tweetID` DESC
+ LIMIT 20')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tweets`.*, `users`.`screenName`, `users`.`username`, `users`.`profileImage`
+FROM `tweets`
+JOIN `users` ON `tweets`.`tweetBy` = `users`.`user_id`
+WHERE   (
+`tweets`.`tweetBy` IS NULL
+AND `tweets`.`retweetID` = 0
+ )
+OR   (
+`tweets`.`tweetBy` IS NULL
+AND `tweets`.`retweetBy` IS NOT NULL
+AND tweets.tweetBy IN (SELECT `receiver` FROM `follow` WHERE `sender` = )
+ )
+ORDER BY `tweets`.`tweetID` DESC
+ LIMIT 20')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `tweets`.*, `users`.`screenName`, `users`.`username`, `users`.`profileImage`
+FROM `tweets`
+JOIN `users` ON `tweets`.`tweetBy` = `users`.`user_id`
+WHERE   (
+`tweets`.`tweetBy` IS NULL
+AND `tweets`.`retweetID` = :tweets.retweetID:
+ )
+OR   (
+`tweets`.`tweetBy` IS NULL
+AND `tweets`.`retweetBy` IS NOT NULL
+AND tweets.tweetBy IN (SELECT `receiver` FROM `follow` WHERE `sender` = )
+ )
+ORDER BY `tweets`.`tweetID` DESC
+ LIMIT 20', [...], false)
+ 4 APPPATH\Models\Tweets.php(47): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Frontend\BaseController.php(96): App\Models\Tweets->getTweets(null, 20)
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Frontend\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 7 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-01 18:18:32 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+ )
+ORDER BY `tweets`.`tweetID` DESC
+ LIMIT 20' at line 11
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT `tweets`.*, `users`.`screenName`, `users`.`username`, `users`.`profileImage`
+FROM `tweets`
+JOIN `users` ON `tweets`.`tweetBy` = `users`.`user_id`
+WHERE   (
+`tweets`.`tweetBy` IS NULL
+AND `tweets`.`retweetID` = 0
+ )
+OR   (
+`tweets`.`tweetBy` IS NULL
+AND `tweets`.`retweetBy` IS NOT NULL
+AND tweets.tweetBy IN (SELECT `receiver` FROM `follow` WHERE `sender` = )
+ )
+ORDER BY `tweets`.`tweetID` DESC
+ LIMIT 20', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tweets`.*, `users`.`screenName`, `users`.`username`, `users`.`profileImage`
+FROM `tweets`
+JOIN `users` ON `tweets`.`tweetBy` = `users`.`user_id`
+WHERE   (
+`tweets`.`tweetBy` IS NULL
+AND `tweets`.`retweetID` = 0
+ )
+OR   (
+`tweets`.`tweetBy` IS NULL
+AND `tweets`.`retweetBy` IS NOT NULL
+AND tweets.tweetBy IN (SELECT `receiver` FROM `follow` WHERE `sender` = )
+ )
+ORDER BY `tweets`.`tweetID` DESC
+ LIMIT 20')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tweets`.*, `users`.`screenName`, `users`.`username`, `users`.`profileImage`
+FROM `tweets`
+JOIN `users` ON `tweets`.`tweetBy` = `users`.`user_id`
+WHERE   (
+`tweets`.`tweetBy` IS NULL
+AND `tweets`.`retweetID` = 0
+ )
+OR   (
+`tweets`.`tweetBy` IS NULL
+AND `tweets`.`retweetBy` IS NOT NULL
+AND tweets.tweetBy IN (SELECT `receiver` FROM `follow` WHERE `sender` = )
+ )
+ORDER BY `tweets`.`tweetID` DESC
+ LIMIT 20')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `tweets`.*, `users`.`screenName`, `users`.`username`, `users`.`profileImage`
+FROM `tweets`
+JOIN `users` ON `tweets`.`tweetBy` = `users`.`user_id`
+WHERE   (
+`tweets`.`tweetBy` IS NULL
+AND `tweets`.`retweetID` = :tweets.retweetID:
+ )
+OR   (
+`tweets`.`tweetBy` IS NULL
+AND `tweets`.`retweetBy` IS NOT NULL
+AND tweets.tweetBy IN (SELECT `receiver` FROM `follow` WHERE `sender` = )
+ )
+ORDER BY `tweets`.`tweetID` DESC
+ LIMIT 20', [...], false)
+ 5 APPPATH\Models\Tweets.php(47): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Frontend\BaseController.php(96): App\Models\Tweets->getTweets(null, 20)
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Frontend\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 8 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-01 18:20:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-01 18:20:27 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+ )
+ORDER BY `tweets`.`tweetID` DESC
+ LIMIT 20' at line 11 in C:\wamp64\www\twitter\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\wamp64\www\twitter\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT `tweets`...', 0)
+#1 C:\wamp64\www\twitter\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tweets`...')
+#2 C:\wamp64\www\twitter\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tweets`...')
+#3 C:\wamp64\www\twitter\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `tweets`...', Array, false)
+#4 C:\wamp64\www\twitter\app\Models\Tweets.php(47): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\twitter\app\Controllers\Frontend\BaseController.php(96): App\Models\Tweets->getTweets(NULL, 20)
+#6 C:\wamp64\www\twitter\system\CodeIgniter.php(904): App\Controllers\Frontend\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#7 C:\wamp64\www\twitter\system\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+#8 C:\wamp64\www\twitter\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\twitter\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\twitter\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\wamp64\www\twitter\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-05-01 18:20:27 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+ )
+ORDER BY `tweets`.`tweetID` DESC
+ LIMIT 20' at line 11
+[Method: GET, Route: login]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `tweets`.*, `users`.`screenName`, `users`.`username`, `users`.`profileImage`
+FROM `tweets`
+JOIN `users` ON `tweets`.`tweetBy` = `users`.`user_id`
+WHERE   (
+`tweets`.`tweetBy` IS NULL
+AND `tweets`.`retweetID` = :tweets.retweetID:
+ )
+OR   (
+`tweets`.`tweetBy` IS NULL
+AND `tweets`.`retweetBy` IS NOT NULL
+AND tweets.tweetBy IN (SELECT `receiver` FROM `follow` WHERE `sender` = )
+ )
+ORDER BY `tweets`.`tweetID` DESC
+ LIMIT 20', [...], false)
+ 2 APPPATH\Models\Tweets.php(47): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Frontend\BaseController.php(96): App\Models\Tweets->getTweets(null, 20)
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Frontend\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-01 18:20:27 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+ )
+ORDER BY `tweets`.`tweetID` DESC
+ LIMIT 20' at line 11
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tweets`.*, `users`.`screenName`, `users`.`username`, `users`.`profileImage`
+FROM `tweets`
+JOIN `users` ON `tweets`.`tweetBy` = `users`.`user_id`
+WHERE   (
+`tweets`.`tweetBy` IS NULL
+AND `tweets`.`retweetID` = 0
+ )
+OR   (
+`tweets`.`tweetBy` IS NULL
+AND `tweets`.`retweetBy` IS NOT NULL
+AND tweets.tweetBy IN (SELECT `receiver` FROM `follow` WHERE `sender` = )
+ )
+ORDER BY `tweets`.`tweetID` DESC
+ LIMIT 20')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tweets`.*, `users`.`screenName`, `users`.`username`, `users`.`profileImage`
+FROM `tweets`
+JOIN `users` ON `tweets`.`tweetBy` = `users`.`user_id`
+WHERE   (
+`tweets`.`tweetBy` IS NULL
+AND `tweets`.`retweetID` = 0
+ )
+OR   (
+`tweets`.`tweetBy` IS NULL
+AND `tweets`.`retweetBy` IS NOT NULL
+AND tweets.tweetBy IN (SELECT `receiver` FROM `follow` WHERE `sender` = )
+ )
+ORDER BY `tweets`.`tweetID` DESC
+ LIMIT 20')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `tweets`.*, `users`.`screenName`, `users`.`username`, `users`.`profileImage`
+FROM `tweets`
+JOIN `users` ON `tweets`.`tweetBy` = `users`.`user_id`
+WHERE   (
+`tweets`.`tweetBy` IS NULL
+AND `tweets`.`retweetID` = :tweets.retweetID:
+ )
+OR   (
+`tweets`.`tweetBy` IS NULL
+AND `tweets`.`retweetBy` IS NOT NULL
+AND tweets.tweetBy IN (SELECT `receiver` FROM `follow` WHERE `sender` = )
+ )
+ORDER BY `tweets`.`tweetID` DESC
+ LIMIT 20', [...], false)
+ 4 APPPATH\Models\Tweets.php(47): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Frontend\BaseController.php(96): App\Models\Tweets->getTweets(null, 20)
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Frontend\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 7 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-01 18:20:27 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+ )
+ORDER BY `tweets`.`tweetID` DESC
+ LIMIT 20' at line 11
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT `tweets`.*, `users`.`screenName`, `users`.`username`, `users`.`profileImage`
+FROM `tweets`
+JOIN `users` ON `tweets`.`tweetBy` = `users`.`user_id`
+WHERE   (
+`tweets`.`tweetBy` IS NULL
+AND `tweets`.`retweetID` = 0
+ )
+OR   (
+`tweets`.`tweetBy` IS NULL
+AND `tweets`.`retweetBy` IS NOT NULL
+AND tweets.tweetBy IN (SELECT `receiver` FROM `follow` WHERE `sender` = )
+ )
+ORDER BY `tweets`.`tweetID` DESC
+ LIMIT 20', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tweets`.*, `users`.`screenName`, `users`.`username`, `users`.`profileImage`
+FROM `tweets`
+JOIN `users` ON `tweets`.`tweetBy` = `users`.`user_id`
+WHERE   (
+`tweets`.`tweetBy` IS NULL
+AND `tweets`.`retweetID` = 0
+ )
+OR   (
+`tweets`.`tweetBy` IS NULL
+AND `tweets`.`retweetBy` IS NOT NULL
+AND tweets.tweetBy IN (SELECT `receiver` FROM `follow` WHERE `sender` = )
+ )
+ORDER BY `tweets`.`tweetID` DESC
+ LIMIT 20')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tweets`.*, `users`.`screenName`, `users`.`username`, `users`.`profileImage`
+FROM `tweets`
+JOIN `users` ON `tweets`.`tweetBy` = `users`.`user_id`
+WHERE   (
+`tweets`.`tweetBy` IS NULL
+AND `tweets`.`retweetID` = 0
+ )
+OR   (
+`tweets`.`tweetBy` IS NULL
+AND `tweets`.`retweetBy` IS NOT NULL
+AND tweets.tweetBy IN (SELECT `receiver` FROM `follow` WHERE `sender` = )
+ )
+ORDER BY `tweets`.`tweetID` DESC
+ LIMIT 20')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `tweets`.*, `users`.`screenName`, `users`.`username`, `users`.`profileImage`
+FROM `tweets`
+JOIN `users` ON `tweets`.`tweetBy` = `users`.`user_id`
+WHERE   (
+`tweets`.`tweetBy` IS NULL
+AND `tweets`.`retweetID` = :tweets.retweetID:
+ )
+OR   (
+`tweets`.`tweetBy` IS NULL
+AND `tweets`.`retweetBy` IS NOT NULL
+AND tweets.tweetBy IN (SELECT `receiver` FROM `follow` WHERE `sender` = )
+ )
+ORDER BY `tweets`.`tweetID` DESC
+ LIMIT 20', [...], false)
+ 5 APPPATH\Models\Tweets.php(47): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Frontend\BaseController.php(96): App\Models\Tweets->getTweets(null, 20)
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Frontend\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 8 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

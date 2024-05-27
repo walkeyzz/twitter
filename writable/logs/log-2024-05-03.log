@@ -1,0 +1,279 @@
+CRITICAL - 2024-05-03 02:18:53 --> ParseError: syntax error, unexpected token "public"
+[Method: GET, Route: /]
+in APPPATH\Helpers\follow_helper.php on line 45.
+ 1 SYSTEMPATH\Controller.php(93): helper([...])
+ 2 APPPATH\Controllers\Frontend\BaseController.php(55): CodeIgniter\Controller->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Frontend\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-03 02:19:39 --> ParseError: syntax error, unexpected variable "$query"
+[Method: GET, Route: /]
+in APPPATH\Models\Messages.php on line 132.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\twitter\\app\\Models\\Messages.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Messages')
+ 3 APPPATH\Models\Follow.php(25): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Messages')
+ 4 APPPATH\Controllers\Frontend\BaseController.php(59): App\Models\Follow->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Frontend\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 6 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-03 02:20:22 --> ErrorException: Declaration of App\Models\Users::update($table, $user_id, $fields) must be compatible with CodeIgniter\Model::update($id = null, $row = null): bool
+[Method: GET, Route: /]
+in APPPATH\Models\Users.php on line 112.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-03 02:21:45 --> ErrorException: Declaration of App\Models\Users::delete($table, $conditions) must be compatible with CodeIgniter\BaseModel::delete($id = null, bool $purge = false)
+[Method: GET, Route: /]
+in APPPATH\Models\Users.php on line 120.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-05-03 02:22:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-03 02:22:02 --> BadMethodCallException: Call to undefined method App\Models\Follow::whoToFollow
+[Method: GET, Route: /]
+in SYSTEMPATH\Model.php on line 921.
+ 1 APPPATH\Controllers\Frontend\BaseController.php(98): CodeIgniter\Model->__call('whoToFollow', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Frontend\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 3 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-03 02:24:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 02:24:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 02:24:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 02:25:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 02:25:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-03 02:25:15 --> TypeError: {closure}(): Argument #1 ($subBuilder) must be of type BaseBuilder, CodeIgniter\Database\MySQLi\Builder given, called in C:\wamp64\www\twitter\system\Database\BaseBuilder.php on line 3540
+[Method: GET, Route: /]
+in APPPATH\Helpers\tweet_helper.php on line 56.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(3540): {closure}(Object(CodeIgniter\Database\MySQLi\Builder))
+ 2 SYSTEMPATH\Database\BaseBuilder.php(959): CodeIgniter\Database\BaseBuilder->buildSubquery(Object(CodeIgniter\Database\MySQLi\Builder), true)
+ 3 SYSTEMPATH\Database\BaseBuilder.php(829): CodeIgniter\Database\BaseBuilder->_whereIn('`tweets`.`tweetBy`', Object(Closure), '', 'AND ', true)
+ 4 APPPATH\Helpers\tweet_helper.php(69): CodeIgniter\Database\BaseBuilder->whereIn('tweets.tweetBy', Object(Closure))
+ 5 APPPATH\Views\home.php(90): tweets('18', 20)
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\twitter\\app\\Views\\home.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 9 APPPATH\Controllers\Frontend\Home.php(20): view('home', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\Home->index()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-03 02:27:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 02:27:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-03 02:27:41 --> BadMethodCallException: Call to undefined method App\Models\Tweets::addMention
+[Method: POST, Route: tweet/submit]
+in SYSTEMPATH\Model.php on line 921.
+ 1 APPPATH\Controllers\Frontend\TweetController.php(52): CodeIgniter\Model->__call('addMention', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\TweetController->submit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\TweetController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-03 02:29:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 02:29:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 02:29:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-03 02:29:50 --> Error: Undefined constant "BASE_URL"
+[Method: GET, Route: profile/Kodekloner]
+in APPPATH\Helpers\follow_helper.php on line 36.
+ 1 APPPATH\Views\profile.php(42): followBtn('18', '18', '18')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\twitter\\app\\Views\\profile.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('profile', [], true)
+ 5 APPPATH\Controllers\Frontend\ProfileController.php(31): view('profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\ProfileController->index('Kodekloner')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-03 02:32:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-03 02:32:46 --> ErrorException: Undefined variable $getFromT
+[Method: GET, Route: profile/Kodekloner]
+in APPPATH\Views\profile.php on line 73.
+ 1 APPPATH\Views\profile.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getFromT', 'C:\\wamp64\\www\\twitter\\app\\Views\\profile.php', 73)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\twitter\\app\\Views\\profile.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('profile', [], true)
+ 5 APPPATH\Controllers\Frontend\ProfileController.php(31): view('profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\ProfileController->index('Kodekloner')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-03 02:36:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-03 02:36:21 --> ErrorException: Undefined variable $getFromT
+[Method: GET, Route: profile/Kodekloner]
+in APPPATH\Views\profile.php on line 73.
+ 1 APPPATH\Views\profile.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getFromT', 'C:\\wamp64\\www\\twitter\\app\\Views\\profile.php', 73)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\twitter\\app\\Views\\profile.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('profile', [], true)
+ 5 APPPATH\Controllers\Frontend\ProfileController.php(20): view('profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\ProfileController->index('Kodekloner')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-03 02:37:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 02:37:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-03 02:37:39 --> ErrorException: Attempt to read property "user_id" on null
+[Method: GET, Route: profile/assets/images/bird.svg]
+in APPPATH\Models\Users.php on line 192.
+ 1 APPPATH\Models\Users.php(192): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "user_id" on null', 'C:\\wamp64\\www\\twitter\\app\\Models\\Users.php', 192)
+ 2 APPPATH\Controllers\Frontend\ProfileController.php(10): App\Models\Users->UserIdByUsername('assets')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\ProfileController->index('assets', 'images', 'bird.svg')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\ProfileController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-03 02:43:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 02:43:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-03 02:43:23 --> ErrorException: Attempt to read property "user_id" on null
+[Method: GET, Route: profile/assets/images/bird.svg]
+in APPPATH\Models\Users.php on line 192.
+ 1 APPPATH\Models\Users.php(192): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "user_id" on null', 'C:\\wamp64\\www\\twitter\\app\\Models\\Users.php', 192)
+ 2 APPPATH\Controllers\Frontend\ProfileController.php(10): App\Models\Users->UserIdByUsername('assets')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\ProfileController->index('assets', 'images', 'bird.svg')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\ProfileController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-03 02:43:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 02:43:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 02:43:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 02:43:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 02:44:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 02:44:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-03 02:44:15 --> ErrorException: Attempt to read property "user_id" on null
+[Method: GET, Route: profile/assets/images/bird.svg]
+in APPPATH\Models\Users.php on line 192.
+ 1 APPPATH\Models\Users.php(192): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "user_id" on null', 'C:\\wamp64\\www\\twitter\\app\\Models\\Users.php', 192)
+ 2 APPPATH\Controllers\Frontend\ProfileController.php(10): App\Models\Users->UserIdByUsername('assets')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\ProfileController->index('assets', 'images', 'bird.svg')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\ProfileController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-03 02:45:11 --> ParseError: Unclosed '{' on line 19 does not match ')'
+[Method: GET, Route: settings/account]
+in APPPATH\Controllers\Frontend\SettingsController.php on line 20.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\twitter\\app\\Controllers\\Frontend\\SettingsController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Frontend\\SettingsController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Frontend\\SettingsController')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Frontend\\SettingsController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-03 02:49:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 03:09:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 03:09:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 03:09:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 03:09:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-03 03:09:32 --> ErrorException: Attempt to read property "user_id" on null
+[Method: GET, Route: profile/assets/images/bird.svg]
+in APPPATH\Models\Users.php on line 192.
+ 1 APPPATH\Models\Users.php(192): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "user_id" on null', 'C:\\wamp64\\www\\twitter\\app\\Models\\Users.php', 192)
+ 2 APPPATH\Controllers\Frontend\ProfileController.php(10): App\Models\Users->UserIdByUsername('assets')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\ProfileController->index('assets', 'images', 'bird.svg')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\ProfileController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-03 03:09:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 03:11:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 03:18:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 03:33:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 03:33:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-03 03:33:14 --> ErrorException: unlink(C:\wamp64\www\twitter\writable\debugbar/debugbar_1714703072.976253.json): No such file or directory
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\wamp64\\www\\twitter\\writable\\debugbar/debugbar_1714703072.976253.json): No such file or directory', 'C:\\wamp64\\www\\twitter\\system\\Debug\\Toolbar\\Collectors\\History.php', 82)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(82): unlink('C:\\wamp64\\www\\twitter\\writable\\debugbar/debugbar_1714703072.976253.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(520): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1714707187.868333', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-03 03:33:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 03:35:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 03:35:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-03 03:35:33 --> ErrorException: Undefined variable $user_id
+[Method: POST, Route: settings/account/submit]
+in APPPATH\Controllers\Frontend\SettingsController.php on line 20.
+ 1 APPPATH\Controllers\Frontend\SettingsController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user_id', 'C:\\wamp64\\www\\twitter\\app\\Controllers\\Frontend\\SettingsController.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\SettingsController->submit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\SettingsController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-03 03:36:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 03:36:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 03:36:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 03:36:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 03:36:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-03 03:36:43 --> ErrorException: Attempt to read property "user_id" on null
+[Method: GET, Route: profile/assets/images/bird.svg]
+in APPPATH\Models\Users.php on line 198.
+ 1 APPPATH\Models\Users.php(198): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "user_id" on null', 'C:\\wamp64\\www\\twitter\\app\\Models\\Users.php', 198)
+ 2 APPPATH\Controllers\Frontend\ProfileController.php(10): App\Models\Users->UserIdByUsername('assets')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\ProfileController->index('assets', 'images', 'bird.svg')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\ProfileController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-03 03:36:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 03:36:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 03:37:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 03:37:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-03 03:37:51 --> ArgumentCountError: Too few arguments to function App\Models\Users::checkPassword(), 1 passed in C:\wamp64\www\twitter\app\Controllers\Frontend\SettingsController.php on line 41 and exactly 2 expected
+[Method: POST, Route: settings/password/submit]
+in APPPATH\Models\Users.php on line 140.
+ 1 APPPATH\Controllers\Frontend\SettingsController.php(41): App\Models\Users->checkPassword('$Bale1869')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\SettingsController->passwordSubmit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\SettingsController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-03 03:40:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 03:44:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 03:44:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 03:44:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 03:44:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 03:45:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 03:45:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 03:45:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 03:45:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 03:45:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-03 03:45:28 --> ErrorException: Attempt to read property "user_id" on null
+[Method: GET, Route: profile/assets/images/bird.svg]
+in APPPATH\Models\Users.php on line 199.
+ 1 APPPATH\Models\Users.php(199): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "user_id" on null', 'C:\\wamp64\\www\\twitter\\app\\Models\\Users.php', 199)
+ 2 APPPATH\Controllers\Frontend\ProfileController.php(10): App\Models\Users->UserIdByUsername('assets')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Frontend\ProfileController->index('assets', 'images', 'bird.svg')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\ProfileController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-03 03:45:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
