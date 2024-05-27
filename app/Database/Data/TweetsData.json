@@ -8,43 +8,43 @@
 "tweetImage":"users\/code.jpg",
 "likesCount":0,
 "retweetCount":0,
-"created_at":"2021\/04\/28 09:33:19",
+"created_at":"2024\/05\/20 09:33:19",
 "retweetMsg":""
 },
 {
 "tweetID":2,
-"status":"Let’s go to #GoogleIO!\r\n#GoogleIO brings together developers from around the world for thoughtful discussions, interactive learning with Google experts and a first look at Google’s latest developer products.",
+"status":"Let’s go to #Google!\r\n#Google brings together developers from around the world for thoughtful discussions, interactive learning with Google experts and a first look at Google’s latest developer products.",
 "tweetBy":4,
 "retweetID":0,
 "retweetBy":0,
 "tweetImage":"users\/google.png",
 "likesCount":0,
 "retweetCount":0,
-"created_at":"2021\/04\/28 09:43:21",
+"created_at":"2024\/05\/20 09:43:21",
 "retweetMsg":""
 },
 {
 "tweetID":3,
-"status":"We are all excited for the #IndiaFacultySummit! Connect with #Google experts, get inspired, and expand your knowledge on Google technologies. Block your dates: April 23rd, 10:00 AM to 12:30 PM IST Have you registered for it? If not, register here https:\/\/goo.gle",
+"status":"We are all excited for the #HarvardSummit! Connect with #Google experts, get inspired, and expand your knowledge on Google technologies. Block your dates: May 20rd, 10:00 AM to 12:30 PM IST Have you registered for it? If not, register here https:\/\/goo.gle",
 "tweetBy":4,
 "retweetID":0,
 "retweetBy":0,
 "tweetImage":"",
 "likesCount":1,
 "retweetCount":0,
-"created_at":"2021\/04\/28 09:44:49",
+"created_at":"2024\/05\/20 09:44:49",
 "retweetMsg":""
 },
 {
 "tweetID":4,
-"status":"Developed a web Application &quot;Twitter - The Social Media Platform&quot; with @nikhil01 It is a platform where user can interact with each other, share their thoughts, and messages known as #tweets. Frontend: #HTML #CSS #javaScript Backend: #php Framework: #Bootstrap Database: #MySql",
+"status":"Developed a web Application &quot;Twitter - The Social Media Platform&quot; with @walkeyzz It is a platform where user can interact with each other, share their thoughts, and messages known as #tweets. Frontend: #HTML #CSS #javaScript Backend: #php Framework: #Bootstrap Database: #MySql",
 "tweetBy":5,
 "retweetID":0,
 "retweetBy":0,
 "tweetImage":"",
 "likesCount":0,
 "retweetCount":0,
-"created_at":"2021\/04\/28 09:47:45",
+"created_at":"2024\/05\/20 09:47:45",
 "retweetMsg":""
 }
 ]
