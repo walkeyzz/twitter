@@ -56,5 +56,73 @@ class ProfileController extends BaseController
   		return view('profileedit', $this->data);
     }
 
-   
+    public function editCover()
+    {
+      $profileCover = $this->request->getFile('profileCover');
+      $allowedExtensions = ['jpg', 'jpeg', 'png'];
+      $maxFileSize = 2097152; // 2 MB in bytes
+
+      // Check if a profile cover image is uploaded
+      if ($profileCover && $profileCover->isValid() && !$profileCover->hasMoved())
+      {
+        if ($profileCover->getSize() < $maxFileSize)
+        {
+          // Check file extension
+          $fileExtension = $profileCover->getExtension();
+          if (in_array(strtolower($fileExtension), $allowedExtensions))
+          {
+            // Upload the file to a specific path
+            $newName = $profileCover->getRandomName();
+            $fileRoot = $profileCover->move(FCPATH . 'uploads/cover', $newName);
+
+            if ($fileRoot)
+            {
+               // If the file is successfully uploaded, update the database
+               $this->users->update($this->user_id, ['profileCover' => 'uploads/cover/' . $newName]);
+            }
+          } else {
+            // Return an error or handle as needed
+            $this->data['imgError'] = "Invalid file type. Allowed extensions are jpg, jpeg, png.";
+          }
+        } else {
+          // Return an error or handle as needed
+          $this->data['imgError'] = "File is too large. Maximum allowed size is 2 MB.";
+        }
+      }
+      return redirect()->to('profileedit');
+    }
+
+    public function editProfileImage()
+    {
+      $profileImage = $this->request->getFile('profileImage');
+      $allowedExtensions = ['jpg', 'jpeg', 'png'];
+      $maxFileSize = 2097152; // 2 MB in bytes
+
+      if ($profileImage && $profileImage->isValid() && !$profileImage->hasMoved()) {
+        if ($profileImage->getSize() < $maxFileSize) {
+          // Check file extension
+          $fileExtension = $profileImage->getExtension();
+          if (in_array(strtolower($fileExtension), $allowedExtensions)) {
+
+            // Upload the file to a specific path
+            $newName = $profileImage->getRandomName();
+            $fileRoot = $profileImage->move(FCPATH . 'uploads/profile', $newName);
+
+            if ($fileRoot) {
+               // If the file is successfully uploaded, update the database
+               $this->users->update($this->user_id, ['profileImage' => 'uploads/profile/' . $newName]);
+            }
+
+          } else {
+            // Return an error or handle as needed
+            $this->data['imgError'] = "Invalid file type. Allowed extensions are jpg, jpeg, png.";
+          }
+        } else {
+          // Return an error or handle as needed
+          $this->data['imgError'] = "File is too large. Maximum allowed size is 2 MB.";
+        }
+      }
+      return redirect()->to('profileedit');
+    }
+
 }
