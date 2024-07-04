@@ -18,7 +18,8 @@ $routes->group('', ['namespace' => 'App\Controllers\Frontend'], function($routes
   $routes->get('signup/(:num)', 'LoginController::signup/$1');
   $routes->post('signup/next', 'LoginController::next');
 
-  $routes->post('tweet/submit', 'TweetController::submit');
+  // $routes->post('tweet/submit', 'TweetController::submit');
+   $routes->post('tweet/submit', 'TweetController::tweetupload');
 
   $routes->get('profile/(:any)', 'ProfileController::index/$1');
   $routes->get('profileedit', 'ProfileController::edit');
@@ -36,7 +37,7 @@ $routes->group('', ['namespace' => 'App\Controllers\Frontend'], function($routes
 
   $routes->get('notifications', 'NotificationsController::index');
 
-  $routes->post('ajax/addtweet', 'AjaxController::addTweet');
+  //$routes->post('ajax/addtweet', 'AjaxController::addTweet');
   $routes->post('ajax/comment', 'AjaxController::comment');
   $routes->post('ajax/deletecomment', 'AjaxController::deleteComment');
   $routes->post('ajax/deletetweet', 'AjaxController::deleteTweet');
